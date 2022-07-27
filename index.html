@@ -142,13 +142,16 @@
         <div class="form">
             <form action="https://formsubmit.co/dariuszirbo@gmail.com" method="POST">
                 <!-- HoneyPot -->
-                <input type="text" name="_honey" style="display:hidden ;">
+                <input type="text" name="_honey" style="display:none ;">
                 <!-- Catptcha -->
-                <input type="hidden" name="-captcha" value="false">
-
+                <input type="hidden" name="_captcha" value="false">
+                <label for="name">Name</label>
                 <input type="text" name="name" required>
+                <label for="email">Email</label>
                 <input type="email" name="email" required>
+                <label for="subject">Subject</label>
                 <input type="text" name="subject" required>
+                <label for="message">Message</label>
                 <textarea name="body" cols="30" rows="10"></textarea>
                 <button type="submit">Send</button>
             </form>
