@@ -101,7 +101,7 @@ a:hover{
 .intro{
     top: 0;
     position: fixed;
-    background-image: url(MyWebPage\img\grey2.png);
+    background-image: url(/MyWebPage/img/grey2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -233,7 +233,7 @@ span{
     border-top: 10px inset #03911a;
     position: relative;
     top: 100vh;
-    background-image: url(MyWebPage\img\flask.png);
+    background-image: url(/MyWebPage/img/galaxy1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
