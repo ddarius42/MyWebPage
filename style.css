@@ -414,11 +414,12 @@ textarea{
 }
 
 button{
+    border: 3px solid blue;
     display: block;
     margin: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #006dfc;
-    background-color: rgb(139, 168, 247);
+    background-color: rgb(206, 219, 255);
     font-size: 25px;
     border-radius: .5rem;
     padding: 2px 7px;
