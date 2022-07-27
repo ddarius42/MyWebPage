@@ -126,6 +126,7 @@ h2{
 }
 
 .about{
+    border-top: 10px inset #03911a;
     position: relative;
     top: 100vh;
     background-image: url(/MyWebPage/img/nature2.jpg);
