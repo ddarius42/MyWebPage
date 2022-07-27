@@ -141,8 +141,15 @@
         <p class="contact-title">Get In Touch!</p>
         <div class="form">
             <form action="https://formsubmit.co/your@email.com" method="POST">
+                <!-- HoneyPot -->
+                <input type="text" name="_honey" style="display:hidden ;">
+                <!-- Catptcha -->
+                <input type="hidden" name="-captcha" value="false">
+
                 <input type="text" name="name" required>
                 <input type="email" name="email" required>
+                <input type="text" name="subject" required>
+                <textarea name="body" cols="30" rows="10"></textarea>
                 <button type="submit">Send</button>
             </form>
         </div>

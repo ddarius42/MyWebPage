@@ -233,7 +233,7 @@ span{
     border-top: 10px inset #03911a;
     position: relative;
     top: 100vh;
-    background-image: url(/MyWebPage/img/galaxy1.jpg);
+    background-image: url(MyWebPage\img\flask.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
